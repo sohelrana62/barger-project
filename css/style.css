@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+/***
+* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+****/
+header{
+	width: 100%;
+	padding: 2rem 0;
+	position: absolute;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.navber{
+	display: flex;
+	justify-content: space-between;
+}
+.top-contuct{
+	margin-bottom: 16px;
+}
+.top-contuct span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3d2514;
+}
+.top-contuct img{
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.menus{
+	text-align: right;
+}
+.main-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 3rem;
+}
+.main-menu ul li a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 2px;
+}
+/******
+ * banner section
+ * *******/
+#banner{
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url(../img/bg-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.banner-content{
+	display: flex;
+}
+.banner_left{
+	flex-basis: 40%;
+	display: flex;
+	height: 100vh;
+	margin-top: 160px;
+}
+.banner_right{
+	flex-basis: 60%;
+}
+.banner_left p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	font-weight: 400;
+	border: 3px dashed #3d2514;
+	display: inline-block;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+.banner_left h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 100px;
+	font-weight: 600;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px rgb(255 255 255 / 70%);
+}
+.banner_left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	font-weight: 600;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px rgb(255 255 255 / 70%);
+
+}
+/********
+ * barger section
+ * *********/
+ #barger{
+ 	width: 100%;
+ 	padding: 100px 0px;
+ }
+ .barger-content{
+ 	display: flex;
+ }
+ .barger-left .barger-right{
+ 	flex-basis: 50%;
+ }
+ .barger-item{
+ 	position: relative;
+ 	margin-left: 35px;
+ }
+ .text-content{
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 40px;
+ }
+ .text-content h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+ }
+.text-content h3{
+     font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.mb-2{
+	margin-bottom: 32px;
+}
